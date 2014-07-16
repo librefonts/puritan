@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ttFont sfntVersion="OTTO" ttLibVersion="2.4">
+  <GlyphOrder src="Puritan-Bold.otf.GlyphOrder.ttx"/>
+  <head src="Puritan-Bold.otf._h_e_a_d.ttx"/>
+  <hhea src="Puritan-Bold.otf._h_h_e_a.ttx"/>
+  <maxp src="Puritan-Bold.otf._m_a_x_p.ttx"/>
+  <OS_2 src="Puritan-Bold.otf.O_S_2f_2.ttx"/>
+  <name src="Puritan-Bold.otf._n_a_m_e.ttx"/>
+  <cmap src="Puritan-Bold.otf._c_m_a_p.ttx"/>
+  <post src="Puritan-Bold.otf._p_o_s_t.ttx"/>
+  <CFF src="Puritan-Bold.otf.C_F_F_.ttx"/>
+  <FFTM src="Puritan-Bold.otf.F_F_T_M_.ttx"/>
+  <GDEF src="Puritan-Bold.otf.G_D_E_F_.ttx"/>
+  <hmtx src="Puritan-Bold.otf._h_m_t_x.ttx"/>
+</ttFont>

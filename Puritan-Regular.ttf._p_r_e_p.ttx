@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ttFont ttLibVersion="2.4">
+
+  <prep>
+    <assembly>
+      PUSHW[ ]  /* 1 value pushed */
+      511
+      SCANCTRL[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      1
+      SCANTYPE[ ]
+      SVTCA[0]
+      MPPEM[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      8
+      LT[ ]
+      IF[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      1 1
+      INSTCTRL[ ]
+      EIF[ ]
+      PUSHB[ ]  /* 2 values pushed */
+      70 6
+      CALL[ ]
+      IF[ ]
+      POP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      16
+      EIF[ ]
+      MPPEM[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      20
+      GT[ ]
+      IF[ ]
+      POP[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      128
+      EIF[ ]
+      SCVTCI[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      6
+      CALL[ ]
+      NOT[ ]
+      IF[ ]
+      EIF[ ]
+      PUSHB[ ]  /* 1 value pushed */
+      20
+      CALL[ ]
+    </assembly>
+  </prep>
+
+</ttFont>
