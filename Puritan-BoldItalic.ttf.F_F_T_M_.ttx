@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <ttFont ttLibVersion="2.4">
 
-  <FFTM>
+  <FFTM raw="True">
     <hexdata>
       00000001 00000000 c7feb0df 00000000
-      b7134053 00000000 c915702d 
+      b7134053 00000000 c915702d
     </hexdata>
   </FFTM>
 
