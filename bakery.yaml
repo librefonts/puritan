@@ -1,0 +1,8 @@
+commit: HEAD
+process_files: [Puritan-Regular.ttf.ttx, Puritan-Italic.ttf.ttx, Puritan-BoldItalic.ttf.ttx,
+  Puritan-Bold.ttf.ttx, src/Puritan-Regular.otf.ttx, src/Puritan-Italic.otf.ttx, src/Puritan-BoldItalic.otf.ttx,
+  src/Puritan-Bold.otf.ttx, src/Puritan-Regular.sfd, src/Puritan-Italic.sfd, src/Puritan-BoldItalic.sfd,
+  src/Puritan-Bold.sfd]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"

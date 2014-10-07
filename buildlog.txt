@@ -1,0 +1,1318 @@
+# Bake Begins!
+### (1 of 6) Copy sources
+$ cp -a /home/travis/build/fontdirectory/puritan/METADATA.json /home/travis/build/fontdirectory/puritan/builds/build
+$ cp -a /home/travis/build/fontdirectory/puritan/DESCRIPTION.en_us.html /home/travis/build/fontdirectory/puritan/builds/build
+$ cp -a /home/travis/build/fontdirectory/puritan/FONTLOG.txt /home/travis/build/fontdirectory/puritan/builds/build
+$ cp -a Puritan-Regular.ttf.ttx Puritan-Italic.ttf.ttx Puritan-BoldItalic.ttf.ttx Puritan-Bold.ttf.ttx src/Puritan-Regular.otf.ttx src/Puritan-Italic.otf.ttx src/Puritan-BoldItalic.otf.ttx src/Puritan-Bold.otf.ttx src/Puritan-Regular.sfd src/Puritan-Italic.sfd src/Puritan-BoldItalic.sfd src/Puritan-Bold.sfd Puritan-Regular.ttf._p_r_e_p.ttx Puritan-Regular.ttf._p_o_s_t.ttx Puritan-Regular.ttf._n_a_m_e.ttx Puritan-Regular.ttf._m_a_x_p.ttx Puritan-Regular.ttf._l_o_c_a.ttx Puritan-Regular.ttf._h_m_t_x.ttx Puritan-Regular.ttf._h_h_e_a.ttx Puritan-Regular.ttf._h_e_a_d.ttx Puritan-Regular.ttf._g_l_y_f.ttx Puritan-Regular.ttf._f_p_g_m.ttx Puritan-Regular.ttf._c_v_t.ttx Puritan-Regular.ttf._c_m_a_p.ttx Puritan-Regular.ttf.O_S_2f_2.ttx Puritan-Regular.ttf.GlyphOrder.ttx Puritan-Regular.ttf.G_D_E_F_.ttx Puritan-Regular.ttf.F_F_T_M_.ttx Puritan-Italic.ttf._p_r_e_p.ttx Puritan-Italic.ttf._p_o_s_t.ttx Puritan-Italic.ttf._n_a_m_e.ttx Puritan-Italic.ttf._m_a_x_p.ttx Puritan-Italic.ttf._l_o_c_a.ttx Puritan-Italic.ttf._h_m_t_x.ttx Puritan-Italic.ttf._h_h_e_a.ttx Puritan-Italic.ttf._h_e_a_d.ttx Puritan-Italic.ttf._g_l_y_f.ttx Puritan-Italic.ttf._f_p_g_m.ttx Puritan-Italic.ttf._c_v_t.ttx Puritan-Italic.ttf._c_m_a_p.ttx Puritan-Italic.ttf.O_S_2f_2.ttx Puritan-Italic.ttf.GlyphOrder.ttx Puritan-Italic.ttf.G_D_E_F_.ttx Puritan-Italic.ttf.F_F_T_M_.ttx Puritan-BoldItalic.ttf._p_r_e_p.ttx Puritan-BoldItalic.ttf._p_o_s_t.ttx Puritan-BoldItalic.ttf._n_a_m_e.ttx Puritan-BoldItalic.ttf._m_a_x_p.ttx Puritan-BoldItalic.ttf._l_o_c_a.ttx Puritan-BoldItalic.ttf._h_m_t_x.ttx Puritan-BoldItalic.ttf._h_h_e_a.ttx Puritan-BoldItalic.ttf._h_e_a_d.ttx Puritan-BoldItalic.ttf._g_l_y_f.ttx Puritan-BoldItalic.ttf._f_p_g_m.ttx Puritan-BoldItalic.ttf._c_v_t.ttx Puritan-BoldItalic.ttf._c_m_a_p.ttx Puritan-BoldItalic.ttf.O_S_2f_2.ttx Puritan-BoldItalic.ttf.GlyphOrder.ttx Puritan-BoldItalic.ttf.G_D_E_F_.ttx Puritan-BoldItalic.ttf.F_F_T_M_.ttx Puritan-Bold.ttf._p_r_e_p.ttx Puritan-Bold.ttf._p_o_s_t.ttx Puritan-Bold.ttf._n_a_m_e.ttx Puritan-Bold.ttf._m_a_x_p.ttx Puritan-Bold.ttf._l_o_c_a.ttx Puritan-Bold.ttf._h_m_t_x.ttx Puritan-Bold.ttf._h_h_e_a.ttx Puritan-Bold.ttf._h_e_a_d.ttx Puritan-Bold.ttf._g_l_y_f.ttx Puritan-Bold.ttf._f_p_g_m.ttx Puritan-Bold.ttf._c_v_t.ttx Puritan-Bold.ttf._c_m_a_p.ttx Puritan-Bold.ttf.O_S_2f_2.ttx Puritan-Bold.ttf.GlyphOrder.ttx Puritan-Bold.ttf.G_D_E_F_.ttx Puritan-Bold.ttf.F_F_T_M_.ttx src/Puritan-Regular.otf._p_o_s_t.ttx src/Puritan-Regular.otf._n_a_m_e.ttx src/Puritan-Regular.otf._m_a_x_p.ttx src/Puritan-Regular.otf._h_m_t_x.ttx src/Puritan-Regular.otf._h_h_e_a.ttx src/Puritan-Regular.otf._h_e_a_d.ttx src/Puritan-Regular.otf._c_m_a_p.ttx src/Puritan-Regular.otf.O_S_2f_2.ttx src/Puritan-Regular.otf.GlyphOrder.ttx src/Puritan-Regular.otf.G_D_E_F_.ttx src/Puritan-Regular.otf.F_F_T_M_.ttx src/Puritan-Regular.otf.C_F_F_.ttx src/Puritan-Italic.otf._p_o_s_t.ttx src/Puritan-Italic.otf._n_a_m_e.ttx src/Puritan-Italic.otf._m_a_x_p.ttx src/Puritan-Italic.otf._h_m_t_x.ttx src/Puritan-Italic.otf._h_h_e_a.ttx src/Puritan-Italic.otf._h_e_a_d.ttx src/Puritan-Italic.otf._c_m_a_p.ttx src/Puritan-Italic.otf.O_S_2f_2.ttx src/Puritan-Italic.otf.GlyphOrder.ttx src/Puritan-Italic.otf.G_D_E_F_.ttx src/Puritan-Italic.otf.F_F_T_M_.ttx src/Puritan-Italic.otf.C_F_F_.ttx src/Puritan-BoldItalic.otf._p_o_s_t.ttx src/Puritan-BoldItalic.otf._n_a_m_e.ttx src/Puritan-BoldItalic.otf._m_a_x_p.ttx src/Puritan-BoldItalic.otf._h_m_t_x.ttx src/Puritan-BoldItalic.otf._h_h_e_a.ttx src/Puritan-BoldItalic.otf._h_e_a_d.ttx src/Puritan-BoldItalic.otf._c_m_a_p.ttx src/Puritan-BoldItalic.otf.O_S_2f_2.ttx src/Puritan-BoldItalic.otf.GlyphOrder.ttx src/Puritan-BoldItalic.otf.G_D_E_F_.ttx src/Puritan-BoldItalic.otf.F_F_T_M_.ttx src/Puritan-BoldItalic.otf.C_F_F_.ttx src/Puritan-Bold.otf._p_o_s_t.ttx src/Puritan-Bold.otf._n_a_m_e.ttx src/Puritan-Bold.otf._m_a_x_p.ttx src/Puritan-Bold.otf._h_m_t_x.ttx src/Puritan-Bold.otf._h_h_e_a.ttx src/Puritan-Bold.otf._h_e_a_d.ttx src/Puritan-Bold.otf._c_m_a_p.ttx src/Puritan-Bold.otf.O_S_2f_2.ttx src/Puritan-Bold.otf.GlyphOrder.ttx src/Puritan-Bold.otf.G_D_E_F_.ttx src/Puritan-Bold.otf.F_F_T_M_.ttx src/Puritan-Bold.otf.C_F_F_.ttx src/Puritan-Regular.otf.ttx src/Puritan-Regular.otf._p_o_s_t.ttx src/Puritan-Regular.otf._n_a_m_e.ttx src/Puritan-Regular.otf._m_a_x_p.ttx src/Puritan-Regular.otf._h_m_t_x.ttx src/Puritan-Regular.otf._h_h_e_a.ttx src/Puritan-Regular.otf._h_e_a_d.ttx src/Puritan-Regular.otf._c_m_a_p.ttx src/Puritan-Regular.otf.O_S_2f_2.ttx src/Puritan-Regular.otf.GlyphOrder.ttx src/Puritan-Regular.otf.G_D_E_F_.ttx src/Puritan-Regular.otf.F_F_T_M_.ttx src/Puritan-Regular.otf.C_F_F_.ttx src/Puritan-Italic.otf.ttx src/Puritan-Italic.otf._p_o_s_t.ttx src/Puritan-Italic.otf._n_a_m_e.ttx src/Puritan-Italic.otf._m_a_x_p.ttx src/Puritan-Italic.otf._h_m_t_x.ttx src/Puritan-Italic.otf._h_h_e_a.ttx src/Puritan-Italic.otf._h_e_a_d.ttx src/Puritan-Italic.otf._c_m_a_p.ttx src/Puritan-Italic.otf.O_S_2f_2.ttx src/Puritan-Italic.otf.GlyphOrder.ttx src/Puritan-Italic.otf.G_D_E_F_.ttx src/Puritan-Italic.otf.F_F_T_M_.ttx src/Puritan-Italic.otf.C_F_F_.ttx src/Puritan-BoldItalic.otf.ttx src/Puritan-BoldItalic.otf._p_o_s_t.ttx src/Puritan-BoldItalic.otf._n_a_m_e.ttx src/Puritan-BoldItalic.otf._m_a_x_p.ttx src/Puritan-BoldItalic.otf._h_m_t_x.ttx src/Puritan-BoldItalic.otf._h_h_e_a.ttx src/Puritan-BoldItalic.otf._h_e_a_d.ttx src/Puritan-BoldItalic.otf._c_m_a_p.ttx src/Puritan-BoldItalic.otf.O_S_2f_2.ttx src/Puritan-BoldItalic.otf.GlyphOrder.ttx src/Puritan-BoldItalic.otf.G_D_E_F_.ttx src/Puritan-BoldItalic.otf.F_F_T_M_.ttx src/Puritan-BoldItalic.otf.C_F_F_.ttx src/Puritan-Bold.otf.ttx src/Puritan-Bold.otf._p_o_s_t.ttx src/Puritan-Bold.otf._n_a_m_e.ttx src/Puritan-Bold.otf._m_a_x_p.ttx src/Puritan-Bold.otf._h_m_t_x.ttx src/Puritan-Bold.otf._h_h_e_a.ttx src/Puritan-Bold.otf._h_e_a_d.ttx src/Puritan-Bold.otf._c_m_a_p.ttx src/Puritan-Bold.otf.O_S_2f_2.ttx src/Puritan-Bold.otf.GlyphOrder.ttx src/Puritan-Bold.otf.G_D_E_F_.ttx src/Puritan-Bold.otf.F_F_T_M_.ttx src/Puritan-Bold.otf.C_F_F_.ttx /home/travis/build/fontdirectory/puritan/builds/build/sources
+### (2 of 6) pyfontaine
+### (3 of 6) Run upstream tests
+$ fontbakery-check.py upstream-repo sources
+$ fontaine --collections subsets --text /home/travis/build/fontdirectory/puritan/builds/build/sources/Puritan-Bold.otf.ttx /home/travis/build/fontdirectory/puritan/builds/build/sources/Puritan-BoldItalic.otf.ttx /home/travis/build/fontdirectory/puritan/builds/build/sources/Puritan-Italic.otf.ttx /home/travis/build/fontdirectory/puritan/builds/build/sources/Puritan-Regular.otf.ttx /home/travis/build/fontdirectory/puritan/builds/build/sources/Puritan-Bold.ttf.ttx /home/travis/build/fontdirectory/puritan/builds/build/sources/Puritan-BoldItalic.ttf.ttx /home/travis/build/fontdirectory/puritan/builds/build/sources/Puritan-Italic.ttf.ttx /home/travis/build/fontdirectory/puritan/builds/build/sources/Puritan-Regular.ttf.ttx /home/travis/build/fontdirectory/puritan/builds/build/sources/Puritan-Bold.sfd /home/travis/build/fontdirectory/puritan/builds/build/sources/Puritan-BoldItalic.sfd /home/travis/build/fontdirectory/puritan/builds/build/sources/Puritan-Italic.sfd /home/travis/build/fontdirectory/puritan/builds/build/sources/Puritan-Regular.sfd > fontaine.txt
+WARNING: Please install [PyICU](https://pypi.python.org/pypi/PyICU) toenable [feature], perhaps with: pip install pyicu
+pyfontaine error: Not a TrueType or OpenType font (bad sfntVersion)
+pyfontaine process has been failed
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_prepolation_glyph_contours(): OK
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_prepolation_glyph_points(): OK
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_test_prepolation_glyph_names(): OK
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_component(): OK
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_mark_to_mark(): OK
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_own_glyphs(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_bakery_yaml_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_copyright_notices_same_across_family(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_description_html_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_fontlog_txt_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_metadata_json_exists(): OK
+$ fontbakery-check.py upstream-ttx Puritan-Bold.otf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/sources/Puritan-Bold.otf.ttx /home/travis/build/fontdirectory/puritan/builds/build/sources/Puritan-Bold.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx Puritan-BoldItalic.otf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/sources/Puritan-BoldItalic.otf.ttx /home/travis/build/fontdirectory/puritan/builds/build/sources/Puritan-BoldItalic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx Puritan-Italic.otf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/sources/Puritan-Italic.otf.ttx /home/travis/build/fontdirectory/puritan/builds/build/sources/Puritan-Italic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx Puritan-Regular.otf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/sources/Puritan-Regular.otf.ttx /home/travis/build/fontdirectory/puritan/builds/build/sources/Puritan-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx Puritan-Bold.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/sources/Puritan-Bold.ttf.ttx /home/travis/build/fontdirectory/puritan/builds/build/sources/Puritan-Bold.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx Puritan-BoldItalic.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/sources/Puritan-BoldItalic.ttf.ttx /home/travis/build/fontdirectory/puritan/builds/build/sources/Puritan-BoldItalic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx Puritan-Italic.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/sources/Puritan-Italic.ttf.ttx /home/travis/build/fontdirectory/puritan/builds/build/sources/Puritan-Italic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx Puritan-Regular.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/sources/Puritan-Regular.ttf.ttx /home/travis/build/fontdirectory/puritan/builds/build/sources/Puritan-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream Puritan-Bold.sfd
+bakery_lint.tests.upstream.test_unicode_value_should_appear_only_once_per_font.UnicodeValueShouldAppearOnlyOnce.testUnicodeValue(): ERROR
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): ERROR
+bakery_lint.tests.upstream.test_contour_count.TestContourCount.test_contour_count(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_has_rupee(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A_a_glyph_instance(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_ended_ufo(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_folder(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_fsType_eq_1(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_it_exists(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_familyname_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_fullfontname_less_than_64_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_consistof_allowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_less_than_30_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_stylename_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_weight_value_range_between_250_and_900(): OK
+$ fontbakery-check.py upstream Puritan-BoldItalic.sfd
+bakery_lint.tests.upstream.test_unicode_value_should_appear_only_once_per_font.UnicodeValueShouldAppearOnlyOnce.testUnicodeValue(): ERROR
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): ERROR
+bakery_lint.tests.upstream.test_contour_count.TestContourCount.test_contour_count(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_has_rupee(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A_a_glyph_instance(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_ended_ufo(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_folder(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_fsType_eq_1(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_it_exists(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_familyname_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_fullfontname_less_than_64_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_consistof_allowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_less_than_30_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_stylename_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_weight_value_range_between_250_and_900(): OK
+$ fontbakery-check.py upstream Puritan-Italic.sfd
+bakery_lint.tests.upstream.test_unicode_value_should_appear_only_once_per_font.UnicodeValueShouldAppearOnlyOnce.testUnicodeValue(): ERROR
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): ERROR
+bakery_lint.tests.upstream.test_contour_count.TestContourCount.test_contour_count(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_has_rupee(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A_a_glyph_instance(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_ended_ufo(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_folder(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_fsType_eq_1(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_it_exists(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_familyname_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_fullfontname_less_than_64_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_consistof_allowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_less_than_30_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_stylename_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_weight_value_range_between_250_and_900(): OK
+$ fontbakery-check.py upstream Puritan-Regular.sfd
+bakery_lint.tests.upstream.test_unicode_value_should_appear_only_once_per_font.UnicodeValueShouldAppearOnlyOnce.testUnicodeValue(): ERROR
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): ERROR
+bakery_lint.tests.upstream.test_contour_count.TestContourCount.test_contour_count(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_has_rupee(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A_a_glyph_instance(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_ended_ufo(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_folder(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_fsType_eq_1(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_it_exists(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_familyname_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_fullfontname_less_than_64_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_consistof_allowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_less_than_30_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_stylename_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_weight_value_range_between_250_and_900(): OK
+### (4 of 6) Convert sources to TTF
+$ ttx -d /home/travis/build/fontdirectory/puritan/builds/build /home/travis/build/fontdirectory/puritan/builds/build/sources/Puritan-Regular.ttx /home/travis/build/fontdirectory/puritan/builds/build/sources/Puritan-Italic.ttx /home/travis/build/fontdirectory/puritan/builds/build/sources/Puritan-BoldItalic.ttx /home/travis/build/fontdirectory/puritan/builds/build/sources/Puritan-Bold.ttx
+strippedname:/home/travis/build/fontdirectory/puritan/builds/build/sources/Puritan-Bold.sfd
+strippedname:/home/travis/build/fontdirectory/puritan/builds/build/sources/Puritan-BoldItalic.sfd
+strippedname:/home/travis/build/fontdirectory/puritan/builds/build/sources/Puritan-Italic.sfd
+strippedname:/home/travis/build/fontdirectory/puritan/builds/build/sources/Puritan-Regular.sfd
+Compiling "/home/travis/build/fontdirectory/puritan/builds/build/sources/Puritan-Regular.ttx" to "/home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'FFTM' table...
+Parsing 'GDEF' table...
+Compiling "/home/travis/build/fontdirectory/puritan/builds/build/sources/Puritan-Italic.ttx" to "/home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'FFTM' table...
+Parsing 'GDEF' table...
+Compiling "/home/travis/build/fontdirectory/puritan/builds/build/sources/Puritan-BoldItalic.ttx" to "/home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'FFTM' table...
+Parsing 'GDEF' table...
+Compiling "/home/travis/build/fontdirectory/puritan/builds/build/sources/Puritan-Bold.ttx" to "/home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'FFTM' table...
+Parsing 'GDEF' table...
+### Test Puritan-Regular.ttf
+$ fontbakery-check.py result Puritan-Regular.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): FAIL
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf
+no table gasp
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+The glyph named fi is mapped to U+F001.
+But its name indicates it should be mapped to U+FB01.
+The glyph named fl is mapped to U+F002.
+But its name indicates it should be mapped to U+FB02.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): FAIL
+$ fontbakery-fix-vertical-metrics.py --autofix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf
+$ fontbakery-fix-vertical-metrics.py /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf
+Parameter              Puritan-Bold.ttf    Puritan-BoldItalic.ttf    Puritan-Italic.ttf    Puritan-Regular.ttf    
+ymax                   896                 896                       881                   881                    
+hhea.ascent            896                 896                       896                   896                    
+OS/2.sTypoAscender     896                 896                       896                   896                    
+OS/2.usWinAscent       896                 896                       896                   896                    
+ymin                   -248                -248                      -255                  -238                   
+hhea.descent           -255                -255                      -255                  -255                   
+OS/2.sTypoDescender    -255                -255                      -255                  -255                   
+OS/2.usWinDescent      255                 255                       255                   255                    
+hhea.lineGap           0                   0                         0                     0                      
+OS/2.sTypoLineGap      0                   0                         0                     0                      
+hhea total             1151                1151                      1151                  1151                   
+typo total             1151                1151                      1151                  1151                   
+win total              1151                1151                      1151                  1151                   
+UPM:Heights            1024:1144           1024:1144                 1024:1136             1024:1119              
+UPM:Heights %          111 %               111 %                     110 %                 109 %                  
+
+
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): OK
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ fontbakery-fix-dsig.py /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF Puritan-Regular.ttf
+$ ls -l 'Puritan-Regular.ttf'* # look at the size savings of that subset process
+Puritan-Regular.ttf.opt: 48992 bytes
+Puritan-Regular.ttf: 54568 bytes
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf.opt /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf
+### Autohint TTFs (ttfautohint) Puritan-Regular.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf '/home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf: 48992 bytes
+/home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.autohint.ttf: 46912 bytes
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.autohint.ttf /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf
+### Subset TTFs (pyftsubset) Puritan-Regular.ttf
+$ pyftsubset Puritan-Regular.latin
+$ pyftsubset Puritan-Regular.menu
+strippedname:/home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf
+spaceWidth is    279
+nbspWidth is     279
+Nothing to do
+### Test Puritan-Italic.ttf
+$ fontbakery-check.py result Puritan-Italic.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): FAIL
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf
+no table gasp
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+The glyph named fi is mapped to U+F001.
+But its name indicates it should be mapped to U+FB01.
+The glyph named fl is mapped to U+F002.
+But its name indicates it should be mapped to U+FB02.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): OK
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ fontbakery-fix-dsig.py /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): FAIL
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF Puritan-Italic.ttf
+$ ls -l 'Puritan-Italic.ttf'* # look at the size savings of that subset process
+Puritan-Italic.ttf.opt: 53868 bytes
+Puritan-Italic.ttf: 59440 bytes
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf.opt /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf
+### Autohint TTFs (ttfautohint) Puritan-Italic.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf '/home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf: 53868 bytes
+/home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.autohint.ttf: 48660 bytes
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.autohint.ttf /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf
+### Subset TTFs (pyftsubset) Puritan-Italic.ttf
+$ pyftsubset Puritan-Italic.latin
+$ pyftsubset Puritan-Italic.menu
+strippedname:/home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf
+spaceWidth is    279
+nbspWidth is     279
+Nothing to do
+### Test Puritan-BoldItalic.ttf
+$ fontbakery-check.py result Puritan-BoldItalic.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): FAIL
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf
+no table gasp
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+The glyph named fi is mapped to U+F001.
+But its name indicates it should be mapped to U+FB01.
+The glyph named fl is mapped to U+F002.
+But its name indicates it should be mapped to U+FB02.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): OK
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ fontbakery-fix-dsig.py /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): FAIL
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF Puritan-BoldItalic.ttf
+$ ls -l 'Puritan-BoldItalic.ttf'* # look at the size savings of that subset process
+Puritan-BoldItalic.ttf.opt: 53512 bytes
+Puritan-BoldItalic.ttf: 59100 bytes
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf.opt /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf
+### Autohint TTFs (ttfautohint) Puritan-BoldItalic.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf '/home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf: 53512 bytes
+/home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.autohint.ttf: 48296 bytes
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.autohint.ttf /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf
+### Subset TTFs (pyftsubset) Puritan-BoldItalic.ttf
+$ pyftsubset Puritan-BoldItalic.latin
+$ pyftsubset Puritan-BoldItalic.menu
+strippedname:/home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf
+spaceWidth is    279
+nbspWidth is     279
+Nothing to do
+### Test Puritan-Bold.ttf
+$ fontbakery-check.py result Puritan-Bold.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): FAIL
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf
+no table gasp
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+The glyph named fi is mapped to U+F001.
+But its name indicates it should be mapped to U+FB01.
+The glyph named fl is mapped to U+F002.
+But its name indicates it should be mapped to U+FB02.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): OK
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ fontbakery-fix-dsig.py /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): FAIL
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF Puritan-Bold.ttf
+$ ls -l 'Puritan-Bold.ttf'* # look at the size savings of that subset process
+Puritan-Bold.ttf.opt: 48804 bytes
+Puritan-Bold.ttf: 54364 bytes
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf.opt /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf
+### Autohint TTFs (ttfautohint) Puritan-Bold.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf '/home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf: 48804 bytes
+/home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.autohint.ttf: 46912 bytes
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.autohint.ttf /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf
+### Subset TTFs (pyftsubset) Puritan-Bold.ttf
+$ pyftsubset Puritan-Bold.latin
+$ pyftsubset Puritan-Bold.menu
+strippedname:/home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf
+spaceWidth is    279
+nbspWidth is     279
+Nothing to do
+$ fontbakery-build-font2ttf.py sources/Puritan-Bold.sfd Puritan-Bold.ttf
+Success: Generated OpenType-TTF (/home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf)
+### Test Puritan-Bold.ttf
+$ fontbakery-check.py result Puritan-Bold.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): FAIL
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+The glyph named fi is mapped to U+F001.
+But its name indicates it should be mapped to U+FB01.
+The glyph named fl is mapped to U+F002.
+But its name indicates it should be mapped to U+FB02.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): FAIL
+$ fontbakery-fix-vertical-metrics.py --autofix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf
+$ fontbakery-fix-vertical-metrics.py /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf
+Parameter              Puritan-Bold.ttf    Puritan-BoldItalic.ttf    Puritan-Italic.ttf    Puritan-Regular.ttf    
+ymax                   875                 896                       881                   881                    
+hhea.ascent            896                 896                       896                   896                    
+OS/2.sTypoAscender     896                 896                       896                   896                    
+OS/2.usWinAscent       896                 896                       896                   896                    
+ymin                   -242                -248                      -255                  -238                   
+hhea.descent           -255                -255                      -255                  -255                   
+OS/2.sTypoDescender    -255                -255                      -255                  -255                   
+OS/2.usWinDescent      255                 255                       255                   255                    
+hhea.lineGap           0                   0                         0                     0                      
+OS/2.sTypoLineGap      0                   0                         0                     0                      
+hhea total             1151                1151                      1151                  1151                   
+typo total             1151                1151                      1151                  1151                   
+win total              1151                1151                      1151                  1151                   
+UPM:Heights            1000:1117           1024:1144                 1024:1136             1024:1119              
+UPM:Heights %          111 %               111 %                     110 %                 109 %                  
+
+
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): OK
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): OK
+### Optimize TTF Puritan-Bold.ttf
+$ ls -l 'Puritan-Bold.ttf'* # look at the size savings of that subset process
+Puritan-Bold.ttf.opt: 28708 bytes
+Puritan-Bold.ttf: 34464 bytes
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf.opt /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf
+### Autohint TTFs (ttfautohint) Puritan-Bold.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf '/home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf: 28708 bytes
+/home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.autohint.ttf: 44744 bytes
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.autohint.ttf /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf
+### Subset TTFs (pyftsubset) Puritan-Bold.ttf
+$ pyftsubset Puritan-Bold.latin
+$ pyftsubset Puritan-Bold.menu
+strippedname:/home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf
+spaceWidth is    273
+nbspWidth is     273
+Nothing to do
+$ fontbakery-build-font2ttf.py sources/Puritan-BoldItalic.sfd Puritan-BoldItalic.ttf
+Success: Generated OpenType-TTF (/home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf)
+### Test Puritan-BoldItalic.ttf
+$ fontbakery-check.py result Puritan-BoldItalic.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): FAIL
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+The glyph named fi is mapped to U+F001.
+But its name indicates it should be mapped to U+FB01.
+The glyph named fl is mapped to U+F002.
+But its name indicates it should be mapped to U+FB02.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): FAIL
+$ fontbakery-fix-vertical-metrics.py --autofix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf
+$ fontbakery-fix-vertical-metrics.py /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf
+Parameter              Puritan-BoldItalic.ttf    Puritan-Bold.ttf    Puritan-Regular.ttf    Puritan-Italic.ttf    
+ymax                   875                       875                 881                    881                   
+hhea.ascent            881                       881                 881                    881                   
+OS/2.sTypoAscender     881                       881                 881                    881                   
+OS/2.usWinAscent       881                       881                 881                    881                   
+ymin                   -242                      -242                -238                   -255                  
+hhea.descent           -255                      -255                -255                   -255                  
+OS/2.sTypoDescender    -255                      -255                -255                   -255                  
+OS/2.usWinDescent      255                       255                 255                    255                   
+hhea.lineGap           0                         0                   0                      0                     
+OS/2.sTypoLineGap      0                         0                   0                      0                     
+hhea total             1136                      1136                1136                   1136                  
+typo total             1136                      1136                1136                   1136                  
+win total              1136                      1136                1136                   1136                  
+UPM:Heights            1000:1117                 1000:1117           1024:1119              1024:1136             
+UPM:Heights %          111 %                     111 %               109 %                  110 %                 
+
+
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): OK
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): OK
+### Optimize TTF Puritan-BoldItalic.ttf
+$ ls -l 'Puritan-BoldItalic.ttf'* # look at the size savings of that subset process
+Puritan-BoldItalic.ttf.opt: 30080 bytes
+Puritan-BoldItalic.ttf: 35876 bytes
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf.opt /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf
+### Autohint TTFs (ttfautohint) Puritan-BoldItalic.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf '/home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf: 30080 bytes
+/home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.autohint.ttf: 45988 bytes
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.autohint.ttf /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf
+### Subset TTFs (pyftsubset) Puritan-BoldItalic.ttf
+$ pyftsubset Puritan-BoldItalic.latin
+$ pyftsubset Puritan-BoldItalic.menu
+strippedname:/home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf
+spaceWidth is    273
+nbspWidth is     273
+Nothing to do
+$ fontbakery-build-font2ttf.py sources/Puritan-Italic.sfd Puritan-Italic.ttf
+Success: Generated OpenType-TTF (/home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf)
+### Test Puritan-Italic.ttf
+$ fontbakery-check.py result Puritan-Italic.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): FAIL
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+The glyph named fi is mapped to U+F001.
+But its name indicates it should be mapped to U+FB01.
+The glyph named fl is mapped to U+F002.
+But its name indicates it should be mapped to U+FB02.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): FAIL
+$ fontbakery-fix-vertical-metrics.py --autofix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf
+$ fontbakery-fix-vertical-metrics.py /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf
+Parameter              Puritan-Italic.ttf    Puritan-BoldItalic.ttf    Puritan-Regular.ttf    Puritan-Bold.ttf    
+ymax                   860                   875                       881                    875                 
+hhea.ascent            881                   881                       881                    881                 
+OS/2.sTypoAscender     881                   881                       881                    881                 
+OS/2.usWinAscent       881                   881                       881                    881                 
+ymin                   -249                  -242                      -238                   -242                
+hhea.descent           -249                  -249                      -249                   -249                
+OS/2.sTypoDescender    -249                  -249                      -249                   -249                
+OS/2.usWinDescent      249                   249                       249                    249                 
+hhea.lineGap           0                     0                         0                      0                   
+OS/2.sTypoLineGap      0                     0                         0                      0                   
+hhea total             1130                  1130                      1130                   1130                
+typo total             1130                  1130                      1130                   1130                
+win total              1130                  1130                      1130                   1130                
+UPM:Heights            1000:1109             1000:1117                 1024:1119              1000:1117           
+UPM:Heights %          110 %                 111 %                     109 %                  111 %               
+
+
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): OK
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): OK
+### Optimize TTF Puritan-Italic.ttf
+$ ls -l 'Puritan-Italic.ttf'* # look at the size savings of that subset process
+Puritan-Italic.ttf.opt: 30452 bytes
+Puritan-Italic.ttf: 36232 bytes
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf.opt /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf
+### Autohint TTFs (ttfautohint) Puritan-Italic.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf '/home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf: 30452 bytes
+/home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.autohint.ttf: 45124 bytes
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.autohint.ttf /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf
+### Subset TTFs (pyftsubset) Puritan-Italic.ttf
+$ pyftsubset Puritan-Italic.latin
+$ pyftsubset Puritan-Italic.menu
+strippedname:/home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf
+spaceWidth is    273
+nbspWidth is     273
+Nothing to do
+$ fontbakery-build-font2ttf.py sources/Puritan-Regular.sfd Puritan-Regular.ttf
+Success: Generated OpenType-TTF (/home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf)
+### Test Puritan-Regular.ttf
+$ fontbakery-check.py result Puritan-Regular.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): FAIL
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+The glyph named fi is mapped to U+F001.
+But its name indicates it should be mapped to U+FB01.
+The glyph named fl is mapped to U+F002.
+But its name indicates it should be mapped to U+FB02.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): FAIL
+$ fontbakery-fix-vertical-metrics.py --autofix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf
+$ fontbakery-fix-vertical-metrics.py /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Italic.ttf /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Bold.ttf /home/travis/build/fontdirectory/puritan/builds/build/Puritan-BoldItalic.ttf
+Parameter              Puritan-Regular.ttf    Puritan-Italic.ttf    Puritan-Bold.ttf    Puritan-BoldItalic.ttf    
+ymax                   860                    860                   875                 875                       
+hhea.ascent            875                    875                   875                 875                       
+OS/2.sTypoAscender     875                    875                   875                 875                       
+OS/2.usWinAscent       875                    875                   875                 875                       
+ymin                   -232                   -249                  -242                -242                      
+hhea.descent           -249                   -249                  -249                -249                      
+OS/2.sTypoDescender    -249                   -249                  -249                -249                      
+OS/2.usWinDescent      249                    249                   249                 249                       
+hhea.lineGap           0                      0                     0                   0                         
+OS/2.sTypoLineGap      0                      0                     0                   0                         
+hhea total             1124                   1124                  1124                1124                      
+typo total             1124                   1124                  1124                1124                      
+win total              1124                   1124                  1124                1124                      
+UPM:Heights            1000:1092              1000:1109             1000:1117           1000:1117                 
+UPM:Heights %          109 %                  110 %                 111 %               111 %                     
+
+
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): OK
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf.fix /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): OK
+### Optimize TTF Puritan-Regular.ttf
+$ ls -l 'Puritan-Regular.ttf'* # look at the size savings of that subset process
+Puritan-Regular.ttf.opt: 30348 bytes
+Puritan-Regular.ttf: 36136 bytes
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf.opt /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf
+### Autohint TTFs (ttfautohint) Puritan-Regular.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf '/home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf: 30348 bytes
+/home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.autohint.ttf: 43008 bytes
+$ mv /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.autohint.ttf /home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf
+### Subset TTFs (pyftsubset) Puritan-Regular.ttf
+$ pyftsubset Puritan-Regular.latin
+$ pyftsubset Puritan-Regular.menu
+strippedname:/home/travis/build/fontdirectory/puritan/builds/build/Puritan-Regular.ttf
+spaceWidth is    273
+nbspWidth is     273
+Nothing to do
+### (5 of 6) Generate METADATA.json (fontbakery-build-metadata.py)
+$ fontbakery-build-metadata.py /home/travis/build/fontdirectory/puritan/builds/build
+{} exists
+No Designer Name known, using Multiple Designers for now...
+Original size: 43008\nGzip size: 22361
+Family Name: Puritan
+PS Name: Puritan-Regular
+Full Name: Puritan Regular
+Style: normal
+Weight: 400
+Filename: Puritan-Regular.ttf
+Copyright: Copyright 1999-2010 Ben Weiner. Licensed under the Open Font License v1.1 (http://scripts.sil.org/OFL)
+Family Name: Puritan
+PS Name: Puritan-BoldItalic
+Full Name: Puritan Bold Italic
+Style: normal
+Weight: 700
+Filename: Puritan-BoldItalic.ttf
+Copyright: Copyright 1999-2010 Ben Weiner. Licensed under the Open Font License v1.1 (http://scripts.sil.org/OFL)
+Family Name: Puritan
+PS Name: Puritan-Bold
+Full Name: Puritan Bold
+Style: normal
+Weight: 700
+Filename: Puritan-Bold.ttf
+Copyright: Copyright 1999-2010 Ben Weiner. Licensed under the Open Font License v1.1 (http://scripts.sil.org/OFL)
+Family Name: Puritan
+PS Name: Puritan-Italic
+Full Name: Puritan Italic
+Style: normal
+Weight: 400
+Filename: Puritan-Italic.ttf
+Copyright: Copyright 1999-2010 Ben Weiner. Licensed under the Open Font License v1.1 (http://scripts.sil.org/OFL)
+### (6 of 6) Run tests for METADATA.json
+$ fontbakery-check.py metadata METADATA.json
+bakery_lint.tests.metadata_test.MetadataSubsetsListTest.test_charset_latin(): OK
+bakery_lint.tests.metadata_test.MetadataSubsetsListTest.test_charset_menu(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_description_is_more_than_500b(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_description_is_valid_html(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_daltonmaag_catalogue(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_fontbureau_catalogue(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_fontscom_catalogue(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_fontshop_catalogue(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_fontsmith_catalogue(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_houseind_catalogue(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_myfonts_catalogue(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_veer_catalogue(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_family_is_listed_in_gwf(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_atleast_latin_menu_subsets_exist(): OK
+/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_lint/tests/metadata_test.py:141: UnicodeWarning: Unicode equal comparison failed to convert both arguments to Unicode - interpreting them as being unequal
+  self.assertTrue(designer in designers,
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_designer_exists_in_profiles_csv(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_fonts_items_dicts(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_fonts_key_list(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_fonts_no_dupes(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_has_unique_style_weight_pairs(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_keys(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_license(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_no_unknown_top_keys(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_subsets_key_list(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_top_keys_types(): OK
+bakery_lint.tests.downstream.test_metadata_font_copyright.CheckMetadataContainsReservedFontName.test_copyright_contains_correct_rfn(): FAIL
+bakery_lint.tests.downstream.test_metadata_font_copyright.CheckMetadataContainsReservedFontName.test_copyright_is_consistent_across_family(): OK
+bakery_lint.tests.downstream.test_metadata_font_copyright.CheckMetadataContainsReservedFontName.test_copyright_matches_pattern(): FAIL
+bakery_lint.tests.downstream.test_metadata_font_copyright.CheckMetadataContainsReservedFontName.test_metadata_copyright_size(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.TestFontOnDiskFamilyEqualToMetadataJSON.test_font_on_disk_family_equal_in_metadata_json(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.TestPostScriptNameInMetadataEqualFontOnDisk.test_postscriptname_in_metadata_equal_to_font_on_disk(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_font_name_matches_family(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_family_values_are_all_the_same(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_filename_matches_postscriptname(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_font_have_regular(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_fonts_fields_have_fontname(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_fullname_is_equal_to_internal_font_fullname(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_fullname_matches_postScriptName(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_regular_is_400(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_regular_is_normal(): OK
+bakery_lint.tests.downstream.test_check_text_files_exist.CheckTextFilesExist.test_copyrighttxt_exists(): FAIL
+bakery_lint.tests.downstream.test_check_text_files_exist.CheckTextFilesExist.test_description_exists(): OK
+bakery_lint.tests.downstream.test_check_text_files_exist.CheckTextFilesExist.test_fontlogtxt_exists(): OK
+bakery_lint.tests.downstream.test_check_text_files_exist.CheckTextFilesExist.test_licensetxt_exists(): FAIL
+bakery_lint.tests.downstream.test_check_subsets_exists.CheckSubsetsExist.test_check_subsets_exists(): OK
+bakery_lint.tests.downstream.test_check_monospace_agreements.CheckMonospaceAgreement.test_check_monospace_agreement(): OK
+bakery_lint.tests.downstream.test_check_metadata_style_matches_names.CheckItalicStyleMatchesMacStyle.test_check_italic_style_matches_names(): FAIL
+bakery_lint.tests.downstream.test_check_metadata_style_matches_names.CheckNormalStyleMatchesMacStyle.test_check_normal_style_matches_names(): OK
+bakery_lint.tests.downstream.test_check_metadata_matches_nametable.CheckMetadataMatchesNameTable.test_check_metadata_matches_nametable(): OK
+bakery_lint.tests.downstream.test_check_metadata_fields.CheckMetadataFields.test_check_metadata_fields(): OK
+bakery_lint.tests.downstream.test_check_menu_contains_proper_glyphs.CheckMenuSubsetContainsProperGlyphs.test_check_menu_contains_proper_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_consistency.CheckGlyphConsistencyInFamily.test_the_same_encodings_of_glyphs_across_family(): OK
+bakery_lint.tests.downstream.test_check_glyph_consistency.CheckGlyphConsistencyInFamily.test_the_same_names_of_glyphs_across_family(): OK
+bakery_lint.tests.downstream.test_check_glyph_consistency.CheckGlyphConsistencyInFamily.test_the_same_number_of_glyphs_across_family(): OK
+bakery_lint.tests.downstream.test_check_font_name_not_in_camelcase.CheckFontNameNotInCamelCase.test_fontname_not_in_camel_case(): OK
+bakery_lint.tests.downstream.test_check_files_menu_agreements.CheckFontsMenuAgreements.test_menu_file_agreement(): OK
+bakery_lint.tests.downstream.test_check_familyname_matches_fontnames.CheckFamilyNameMatchesFontNames.test_check_familyname_matches_fontnames(): OK
+bakery_lint.tests.downstream.test_check_canonical_weights.CheckCanonicalWeights.test_check_canonical_weights(): OK
+bakery_lint.tests.downstream.test_check_canonical_weights.CheckPostScriptNameMatchesWeight.test_postscriptname_contains_correct_weight(): OK
+bakery_lint.tests.downstream.test_check_canonical_weights.CheckFontWeightSameAsInMetadata.test_font_weight_same_as_in_metadata(): OK
+bakery_lint.tests.downstream.test_check_canonical_weights.CheckFullNameEqualCanonicalName.test_metadata_contains_current_font(): OK
+bakery_lint.tests.downstream.test_check_canonical_styles.CheckCanonicalStyles.test_check_canonical_styles(): OK
+bakery_lint.tests.downstream.test_check_canonical_filenames.CheckCanonicalFilenames.test_check_canonical_filenames(): OK
+{
+  "name": "Puritan", 
+  "designer": "Ben Weiner", 
+  "license": "OFL", 
+  "visibility": "External", 
+  "category": "Sans Serif", 
+  "size": 28730, 
+  "fonts": [
+    {
+      "name": "Puritan", 
+      "postScriptName": "Puritan-Regular", 
+      "fullName": "Puritan Regular", 
+      "style": "normal", 
+      "weight": 400, 
+      "filename": "Puritan-Regular.ttf", 
+      "copyright": "Copyright 1999-2010 Ben Weiner. Licensed under the Open Font License v1.1 (http://scripts.sil.org/OFL)"
+    }, 
+    {
+      "name": "Puritan", 
+      "postScriptName": "Puritan-BoldItalic", 
+      "fullName": "Puritan Bold Italic", 
+      "style": "normal", 
+      "weight": 700, 
+      "filename": "Puritan-BoldItalic.ttf", 
+      "copyright": "Copyright 1999-2010 Ben Weiner. Licensed under the Open Font License v1.1 (http://scripts.sil.org/OFL)"
+    }, 
+    {
+      "name": "Puritan", 
+      "postScriptName": "Puritan-Bold", 
+      "fullName": "Puritan Bold", 
+      "style": "normal", 
+      "weight": 700, 
+      "filename": "Puritan-Bold.ttf", 
+      "copyright": "Copyright 1999-2010 Ben Weiner. Licensed under the Open Font License v1.1 (http://scripts.sil.org/OFL)"
+    }, 
+    {
+      "name": "Puritan", 
+      "postScriptName": "Puritan-Italic", 
+      "fullName": "Puritan Italic", 
+      "style": "normal", 
+      "weight": 400, 
+      "filename": "Puritan-Italic.ttf", 
+      "copyright": "Copyright 1999-2010 Ben Weiner. Licensed under the Open Font License v1.1 (http://scripts.sil.org/OFL)"
+    }
+  ], 
+  "subsets": [
+    "latin", 
+    "menu"
+  ], 
+  "dateAdded": "2010-11-30"
+}
